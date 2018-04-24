@@ -1,9 +1,9 @@
 class Labelme < Formula
   desc "Image Polygonal Annotation with Python."
   homepage "https://github.com/wkentaro/labelme"
-  url "https://github.com/wkentaro/labelme/releases/download/v2.11.0/labelme-macOS.zip"
-  version "2.11.0"
-  sha256 "8f221500a75a938dd33f3488af46f7152aeafb4ae4c21687e2d6908d5884dace"
+  version '2.12.0'
+  url "https://github.com/wkentaro/labelme/releases/download/v#{version}/labelme-macOS.zip"
+  sha256 "74561d064fa0826075236d1592a1ca6a21c995fb8fa6fd2f1b1be91eec4fc9fc"
 
   def install
     bin.install "labelme"

@@ -1,8 +1,8 @@
 cask 'labelme' do
-  version '2.11.0'
-  sha256 'f5c6b4d90a1e4132027060598696df00cf867f06610f14faa66de64a90de7a0a'
+  version '2.12.0'
+  sha256 'c9925a1f1fa4c4d0bc36ddacd25988ce9a7a5e9a206926619073f2fd072dcc6d'
 
-  url 'https://github.com/wkentaro/labelme/releases/download/v2.11.0/labelme-macOS.app.zip'
+  url "https://github.com/wkentaro/labelme/releases/download/v#{version}/labelme.app-macOS.zip"
   name 'labelme'
   homepage 'https://github.com/wkentaro/labelme'
 
