@@ -1,10 +1,14 @@
-cask 'labelme' do
-  version '3.6.10'
-  sha256 '0db3db40f89854e9fc66ec95c550801ed37efe63a8397d3d18b3dd7869b9b8f0'
+cask "labelme" do
+  version "4.5.12"
+  sha256 "5af29f6b3070502c75f99590b59c31c20f654bdc7060f9428cbad0039485a598"
 
-  url "https://github.com/wkentaro/labelme/releases/download/v#{version}/labelme.app-Darwin.zip"
-  name 'labelme'
-  homepage 'https://github.com/wkentaro/labelme'
+  url "https://github.com/wkentaro/labelme/releases/download/v#{version}/Labelme.dmg",
+      verified: "github.com/wkentaro/labelme/"
+  name "Labelme"
+  desc "Image Polygonal Annotation with Python"
+  homepage "https://github.com/wkentaro/labelme"
 
-  app 'labelme.app'
+  auto_updates true
+
+  app "Labelme.app"
 end

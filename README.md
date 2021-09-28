@@ -1,13 +1,13 @@
 # homebrew-labelme
 
-Homebrew installation of [labelme](https://github.com/wkentaro/labelme).
+Homebrew installation of [Labelme](https://github.com/wkentaro/labelme).
 
 ## Installation
 
 ```bash
-# labelme executable
+# command line interface
 brew install wkentaro/labelme/labelme
 
-# labelme.app
-brew cask install wkentaro/labelme/labelme
+# app
+brew install --cask wkentaro/labelme/labelme
 ```
